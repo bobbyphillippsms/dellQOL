@@ -1,10 +1,8 @@
 less ./jtaliases.sh >> ~/.bashrc
 
-#cat > ~/etc/yum.repos.d/CentOS-Base.repo
+yes | cp -rf ./CentOS-Base.repo ~/etc/yum.repos.d/
 
-curl https://www.getpagespeed.com/files/centos6-eol.repo --output ~/etc/yum.repos.d/CentOS-Base.repo
-
-# curl https://www.getpagespeed.com/files/centos6-epel-eol.repo --output /etc/yum.repos.d/epel.repo
+yes | cp -rf ./epel.repo ~/etc/yum.repos.d/
 
 yum clean all
 
