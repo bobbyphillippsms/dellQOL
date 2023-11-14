@@ -2,7 +2,7 @@ git reset --hard && git pull
 
 chmod +x dellqolsetup.sh
 
-chmod +x quolupdate.sh
+chmod +x qolupdate.sh
 
 cp -rf ./.bashrc  ~/.bashrc
 
