@@ -1,3 +1,5 @@
+cd ~/Desktop/dellqolsetup
+
 git reset --hard && git pull
 
 chmod +x dellqolsetup.sh
