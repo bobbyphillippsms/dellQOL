@@ -716,7 +716,7 @@ chmod +x ./Tech.sh
 
 mv ./Tech.sh /var/ftp/pub/test_scripts/NULL/PXE_Scripts/
 
-cp -f rollingata.txt ~/Desktop
+cp -f ./rollingata.txt ~/Desktop
 
 sudo grubby --update-kernel=ALL --args="video=hyperv_fb:1920x1080"
 

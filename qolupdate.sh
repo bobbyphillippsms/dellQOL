@@ -8,4 +8,4 @@ cp -rf ./.bashrc  ~/.bashrc
 
 less ./jtaliases.sh >> ~/.bashrc
 
-cp -f rollingata.txt ~/Desktop
+cp -f ./rollingata.txt ~/Desktop
