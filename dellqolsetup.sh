@@ -4,6 +4,8 @@ less ./jtaliases.sh >> ~/.bashrc
 
 chmod +x qolupdate.sh
 
+chmod +x resfix.sh
+
 yes | cp -rf ./CentOS-Base.repo ~/etc/yum.repos.d/
 
 yes | cp -rf ./epel.repo ~/etc/yum.repos.d/

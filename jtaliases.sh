@@ -90,7 +90,7 @@ alias ndh='dhcpdclear'
 
 alias qol='~/Desktop/dellQOL/qolupdate.sh'
 
-alias resfix='sudo grubby --update-kernel=ALL --args=\"video=hyperv_fb:1920x1080\" && echo \"Resolution fix has been applied. Please reboot the VM now to see changes.\"'
+alias resfix='~/Desktop/dellQOL/resfix.sh'
 
 
 
