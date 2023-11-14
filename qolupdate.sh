@@ -1,4 +1,4 @@
-git pull
+git reset --hard && git pull
 
 chmod +x dellqolsetup.sh
 

@@ -2,7 +2,7 @@ cp -rf ./.bashrc  ~/.bashrc
 
 less ./jtaliases.sh >> ~/.bashrc
 
-chmod qolupdate.sh
+chmod +x qolupdate.sh
 
 yes | cp -rf ./CentOS-Base.repo ~/etc/yum.repos.d/
 
