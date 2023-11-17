@@ -88,7 +88,7 @@ alias ndh='dhcpdclear'
 ###
 ######
 
-alias qol='~/Desktop/dellQOL/qolupdate.sh && exit 0'
+alias qol='~/Desktop/dellQOL/qolupdate.sh && cd'
 
 alias resfix='~/Desktop/dellQOL/resfix.sh'
 
