@@ -4,6 +4,6 @@ git reset --hard && git pull
 
 chmod +x qolupset.sh
 
-. ./qolupset.sh
+source qolupset.sh
 
 rt
