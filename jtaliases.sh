@@ -92,5 +92,5 @@ alias qol='~/Desktop/dellQOL/qolupdate.sh'
 
 alias resfix='~/Desktop/dellQOL/resfix.sh'
 
-
+alias snooze='~/Desktop/dellQOL/vmupdatesnooze.sh'
 
