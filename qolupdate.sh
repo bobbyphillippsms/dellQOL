@@ -6,8 +6,4 @@ chmod +x ~/Desktop/dellQOL/qolupset.sh
 
 source ~/Desktop/dellQOL/qolupset.sh
 
-chmod +x ~/Desktop/dellQOL/qolupdate.sh
-
-#superfluous comment
-
-exit && exit
+chmod +x ~/Desktop/dellQOL/qolupdate.sh && exit
