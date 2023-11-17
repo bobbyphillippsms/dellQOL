@@ -14,4 +14,4 @@ cp -f ./rollingata.txt ~/Desktop
 
 exec bash
 
-echo "Dell QOL Tools have been updated and applied!\n"
+echo "Dell QOL Tools have been updated and applied!"
