@@ -1,9 +1,9 @@
-chmod +x ~/Desktop/dellQOL/gitup.sh
+chmod +x ./gitup.sh
 
-~/Desktop/dellQOL/gitup.sh
+gitup.sh
 
-chmod +x ~/Desktop/dellQOL/qolupset.sh
+chmod ./qolupset.sh
 
-~/Desktop/dellQOL/qolupset.sh
+qolupset.sh
 
-chmod +x ~/Desktop/dellqol/qolupdate.sh
+chmod +x ./qolupdate.sh

@@ -1,18 +1,18 @@
-chmod +x dellqolsetup.sh
+chmod +x ~/Desktop/dellQOL/dellqolsetup.sh
 
-chmod +x qolupdate.sh
+chmod +x ~/Desktop/dellQOL/qolupdate.sh
 
-chmod +x resfix.sh
+chmod +x ~/Desktop/dellQOL/resfix.sh
 
-chmod +x vmupdatesnooze.sh
+chmod +x ~/Desktop/dellQOL/vmupdatesnooze.sh
 
 cp -rf ./.bashrc  ~/.bashrc
 
-less ./jtaliases.sh >> ~/.bashrc
+less ~/Desktop/dellQOL/jtaliases.sh >> ~/.bashrc
 
-cp -f ./rollingata.txt ~/Desktop
+cp -f ~/Desktop/dellQOL/rollingata.txt ~/Desktop
 
-cp -f ./cheatsheet.txt ~/Desktop
+cp -f ~/Desktop/dellQOL/cheatsheet.txt ~/Desktop
 
 exec bash
 
