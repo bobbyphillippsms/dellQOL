@@ -10,4 +10,4 @@ chmod +x ~/Desktop/dellQOL/qolupdate.sh
 
 #superfluous comment
 
-exit
+exit && exit
