@@ -6,4 +6,4 @@ chmod +x qolupset.sh
 
 source qolupset.sh
 
-rt
+cd ~/
