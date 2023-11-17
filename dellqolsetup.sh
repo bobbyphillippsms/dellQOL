@@ -302,39 +302,6 @@ EOF
 
  
 
-#Creating the Terminator Update shortcut for Terminator Update Command
-
-cat > ~/Desktop/Terminator_Update.desktop <<-EOF
-
-#!/usr/bin/env xdg-open
-
- 
-
-[Desktop Entry]
-
-Version=1.0
-
-Type=Application
-
-Terminal=true
-
-Icon=terminator
-
-Name[en_US]=Terminator Update
-
-Exec=yum update -y terminator
-
-Comment[en_US]=Update terminator desktop shortcut
-
-Name=Terminator Update
-
-Comment=Update Terminator
-
- 
-
-EOF
-
-chmod +x ~/Desktop/Terminator_Update.desktop
 
  
 
