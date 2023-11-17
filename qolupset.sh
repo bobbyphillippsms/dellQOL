@@ -6,7 +6,7 @@ chmod +x ~/Desktop/dellQOL/resfix.sh
 
 chmod +x ~/Desktop/dellQOL/vmupdatesnooze.sh
 
-cp -rf ./.bashrc  ~/.bashrc
+cp -rf ~/Desktop/dellQOL/.bashrc  ~/.bashrc
 
 less ~/Desktop/dellQOL/jtaliases.sh >> ~/.bashrc
 
