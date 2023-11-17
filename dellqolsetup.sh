@@ -6,6 +6,10 @@ chmod +x qolupdate.sh
 
 chmod +x resfix.sh
 
+chmod +x qolupset.sh
+
+chmod +x gitup.sh
+
 yes | cp -rf ./CentOS-Base.repo ~/etc/yum.repos.d/
 
 yes | cp -rf ./epel.repo ~/etc/yum.repos.d/
@@ -723,3 +727,5 @@ cp -f ./rollingata.txt ~/Desktop
 sudo grubby --update-kernel=ALL --args="video=hyperv_fb:1920x1080"
 
 echo "Dell Quality of Life tools have been installed and setup. Please reboot the VM to apply screen resolution changes."
+
+bash exec
