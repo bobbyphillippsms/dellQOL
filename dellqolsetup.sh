@@ -728,4 +728,4 @@ sudo grubby --update-kernel=ALL --args="video=hyperv_fb:1920x1080"
 
 echo "Dell Quality of Life tools have been installed and setup. Please reboot the VM to apply screen resolution changes."
 
-bash exec
+exec bash
