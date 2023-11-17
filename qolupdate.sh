@@ -2,16 +2,6 @@ cd ~/Desktop/dellQOL
 
 git reset --hard && git pull
 
-chmod +x dellqolsetup.sh
+chmod +x qolupset.sh
 
-chmod +x qolupdate.sh
-
-chmod +x resfix.sh
-
-chmod +x vmupdatesnooze.sh
-
-cp -rf ./.bashrc  ~/.bashrc
-
-less ./jtaliases.sh >> ~/.bashrc
-
-cp -f ./rollingata.txt ~/Desktop
+qolupset.sh
