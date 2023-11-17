@@ -7,6 +7,9 @@ ss
 id
 	Type 'id' and then the last two portions of an IP address to flash the red light on that sled for ID purposes
 
+ipp
+	List all the connected/booted sleds IP addresses (already in terminator right-side window by default)
+
 resfix
 	Fix the VM resolution to 1920x1080 (restart required)
 
