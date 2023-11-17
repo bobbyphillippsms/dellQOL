@@ -6,4 +6,4 @@ chmod +x ~/Desktop/dellQOL/qolupset.sh
 
 ~/Desktop/dellQOL/qolupset.sh
 
-chmod +x ~/Desktop/dellqol/qolupdate.sh
+chmod +x ~/Desktop/dellQOL/qolupdate.sh
