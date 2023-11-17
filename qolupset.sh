@@ -14,6 +14,8 @@ cp -f ~/Desktop/dellQOL/rollingata.txt ~/Desktop
 
 cp -f ~/Desktop/dellQOL/cheatsheet.txt ~/Desktop
 
+rm -f ~/Desktop/Terminator_Update.desktop
+
 exec bash
 
 echo "Dell QOL Tools have been updated and applied!"
