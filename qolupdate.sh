@@ -6,4 +6,4 @@ chmod +x qolupset.sh
 
 qolupset.sh
 
-exit && exit
+return
