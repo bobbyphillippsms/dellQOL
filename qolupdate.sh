@@ -9,3 +9,5 @@ source ~/Desktop/dellQOL/qolupset.sh
 chmod +x ~/Desktop/dellQOL/qolupdate.sh
 
 #superfluous comment
+
+exit
