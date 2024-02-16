@@ -35,6 +35,12 @@ alias ss='ssh192func'
 ###
 #########
 
+sshs() {
+        ssh 192.168.$1 "cat > /tmp/.bashrc_temp" < ~/.bashrc_temp
+        ssh -t 192.168.$1 "bash --rcfile /tmp/.bashrc_temp ; rm /tmp/.bashrc_temp"
+}
+
+alias sst='sshs'
 
 ###
 ###function to ping

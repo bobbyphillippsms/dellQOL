@@ -10,6 +10,8 @@ cp -rf ~/Desktop/dellQOL/.bashrc  ~/.bashrc
 
 less ~/Desktop/dellQOL/jtaliases.sh >> ~/.bashrc
 
+cp -rf ~/.bashrc >> ~/.bashrc_temp
+
 cp -f ~/Desktop/dellQOL/rollingata.txt ~/Desktop
 
 cp -f ~/Desktop/dellQOL/cheatsheet.txt ~/Desktop
