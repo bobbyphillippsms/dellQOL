@@ -29,6 +29,7 @@ px=/var/ftp/pub/test_scripts/NULL
 ###
 ###function to ssh
 ssh192func() {
+	scp ~/Desktop/dellQOL/remotealias.sh root@192.168.$1:~/.bashrc
 	ssh 192.168.$1
 }
 alias ss='ssh192func'
