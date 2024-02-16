@@ -36,9 +36,13 @@ alias ss='ssh192func'
 #########
 
 sshs() {
-        ssh 192.168.$1 "cat > /tmp/.bashrc_temp" < ~/.bashrc_temp
-        ssh -t 192.168.$1 "bash --rcfile /tmp/.bashrc_temp ; rm /tmp/.bashrc_temp"
+		less ~/Desktop/dellQOL/remotealias.sh >> 192.168.$1:~/.bashrc
+		exec 192.168.$1:bash
+        ssh 192.168.$1
+        #ssh -t 192.168.$1 "bash --rcfile /tmp/.bashrc_temp ; rm /tmp/.bashrc_temp"
 }
+
+alias sst='sshs'
 
 ###
 ###function to ping
@@ -92,12 +96,12 @@ alias ndh='dhcpdclear'
 ###
 ######
 
-ratascript() {
-
-	for i in {a..j};
-		do hdparm --security-unlock 'Autopilot' /dev/sd"$i"; hdparm --security-disable 'Autopilot' /dev/sd"$i"; hdparm --security-unlock 'AutoATAWindowsString12345678901' /dev/sd"$i"; hdparm --security-disable 'AutoATAWindowsString12345678901' /dev/sd"$i"; done
-
-}
+#ratascript() {
+#
+#	for i in {a..j};
+#		do hdparm --security-unlock 'Autopilot' /dev/sd"$i"; hdparm --security-disable 'Autopilot' /dev/sd"$i"; hdparm --security-unlock 'AutoATAWindowsString12345678901' /dev/sd"$i"; hdparm --security-disable 'AutoATAWindowsString12345678901' /dev/sd"$i"; done
+#
+#}
 
 alias qol='~/Desktop/dellQOL/qolupdate.sh && cd'
 
@@ -107,4 +111,4 @@ alias snooze='~/Desktop/dellQOL/vmupdatesnooze.sh'
 
 alias gitup='~/Desktop/dellQOL/gitup.sh'
 
-alias rata='ratascript'
+#alias rata='ratascript'
