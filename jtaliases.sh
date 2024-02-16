@@ -88,6 +88,13 @@ alias ndh='dhcpdclear'
 ###
 ######
 
+ratascript() {
+
+	for i in {a..j};
+		do hdparm --security-unlock 'Autopilot' /dev/sd"$i"; hdparm --security-disable 'Autopilot' /dev/sd"$i"; hdparm --security-unlock 'AutoATAWindowsString12345678901' /dev/sd"$i"; hdparm --security-disable 'AutoATAWindowsString12345678901' /dev/sd"$i"; done
+
+}
+
 alias qol='~/Desktop/dellQOL/qolupdate.sh && cd'
 
 alias resfix='~/Desktop/dellQOL/resfix.sh'
@@ -95,3 +102,5 @@ alias resfix='~/Desktop/dellQOL/resfix.sh'
 alias snooze='~/Desktop/dellQOL/vmupdatesnooze.sh'
 
 alias gitup='~/Desktop/dellQOL/gitup.sh'
+
+alias rata='ratascript'
