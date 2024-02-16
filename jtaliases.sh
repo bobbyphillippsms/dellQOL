@@ -40,8 +40,6 @@ sshs() {
         ssh -t 192.168.$1 "bash --rcfile /tmp/.bashrc_temp ; rm /tmp/.bashrc_temp"
 }
 
-alias sst='sshs'
-
 ###
 ###function to ping
 png192func() {
