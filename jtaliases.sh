@@ -36,9 +36,8 @@ alias ss='ssh192func'
 #########
 
 sshs() {
-	TMP_RC=remotealias.sh
-	scp rc_file root@192.168.$1:${TMP_RC}
-	ssh root@192.168.$1 "bash --rcfile ${TMP_RC}"
+	scp ~/Desktop/dellQOL/remotealias.sh root@192.168.$1:~/.bashrc
+	ssh 192.168.$1
 }
 
 alias sst='sshs'
