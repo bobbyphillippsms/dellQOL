@@ -6,4 +6,4 @@ chmod +x ~/Desktop/dellQOL/qolupset.sh
 
 source ~/Desktop/dellQOL/qolupset.sh
 
-exit 1
+return 1
