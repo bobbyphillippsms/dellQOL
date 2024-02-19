@@ -24,4 +24,4 @@ exec bash
 
 echo "Dell QOL Tools have been updated and applied!"
 
-exit
+exit 1
