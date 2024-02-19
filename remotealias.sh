@@ -38,3 +38,5 @@ ratascript() {
 }
 
 alias rata='ratascript'
+
+alis errormod='Tools/Samsung_NVME_Serial/ERRORMOD/Format_ERRORMOD_run.sh'
